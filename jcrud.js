@@ -85,7 +85,7 @@ function loaddata(){
             {
                 var pro= response[i];
                 // product.append(`<div class="eproduct"><p><strong>id: </strong> ${pro._id}</p><h3><strong>Name: </strong>${pro.name}</h3><p><strong>Color: </strong>${pro.color}</p><p><strong>Price: </strong>${pro.price}</p><p><strong>Department: </strong>${pro.department}</p><p><strong>Description: </strong>${pro.description}<button class="btn btn-danger float-right">Delete</ button></p></div> `);
-                product.append(`<div class="eproduct" data-id="${pro._id}"><h3>${pro.name}</h3><p><button id="delbtn" class="btn btn-danger float-right">Delete</button><button id="editbtn" class="btn btn-warning float-right">Edit</button>${pro.color}</p><p>${pro.price}</p><p>${pro.department}</p><p>${pro.description}</p></div> `);
+                product.append(`<div class="eproduct" data-id="${pro._id}"><p>${pro._id}</p><h3>${pro.name}</h3><p><button id="delbtn" class="btn btn-danger float-right">Delete</button><button id="editbtn" class="btn btn-warning float-right">Edit</button>${pro.color}</p><p>${pro.price}</p><p>${pro.department}</p><p>${pro.description}</p></div> `);
             }
 
         }
