@@ -81,7 +81,7 @@ function loaddata(){
             console.log(response);
             var product = $("#productdisp");
             product.empty();
-            for(var i = 0; i<= response.length; i++)
+            for(var i = 0; i< response.length; i++)
             {
                 var pro= response[i];
                 // product.append(`<div class="eproduct"><p><strong>id: </strong> ${pro._id}</p><h3><strong>Name: </strong>${pro.name}</h3><p><strong>Color: </strong>${pro.color}</p><p><strong>Price: </strong>${pro.price}</p><p><strong>Department: </strong>${pro.department}</p><p><strong>Description: </strong>${pro.description}<button class="btn btn-danger float-right">Delete</ button></p></div> `);
